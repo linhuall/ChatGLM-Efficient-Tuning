@@ -1,11 +1,11 @@
 #!/bin/bash
 
-CUDA_VISIBLE_DEVICES=0 python ../src/finetune.py \
+CUDA_VISIBLE_DEVICES=0 python /kaggle/working/model/src/finetune.py \
     --do_train \
-    --dataset alpaca_gpt4_zh \
+    --dataset datasetV3 \
     --dataset_dir ../data \
     --finetuning_type lora \
-    --output_dir path_to_checkpoint \
+    --output_dir /kaggle/working/checkpoint \
     --overwrite_cache \
     --per_device_train_batch_size 4 \
     --gradient_accumulation_steps 4 \
@@ -14,4 +14,4 @@ CUDA_VISIBLE_DEVICES=0 python ../src/finetune.py \
     --save_steps 1000 \
     --learning_rate 5e-5 \
     --num_train_epochs 1.0 \
-    --fp16
+    --int8

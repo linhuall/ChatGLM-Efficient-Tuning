@@ -106,5 +106,14 @@
             "response": "output",
             "history": "history"
         }
+    },
+    "datasetV3": {
+        "file_name": "/kaggle/input/dataset/datasetV3.json",
+        "columns": {
+            "prompt": "prompt",
+            "query": "",
+            "response": "output",
+            "history": "history"
+        }
     }
 }
