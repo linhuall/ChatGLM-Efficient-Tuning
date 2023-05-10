@@ -13,5 +13,6 @@ CUDA_VISIBLE_DEVICES=0 python /kaggle/working/model/src/finetune.py \
     --logging_steps 10 \
     --save_steps 1000 \
     --learning_rate 5e-5 \
-    --num_train_epochs 1.0 #\
+    --num_train_epochs 1.0 \
+    --quantization_bit 8
     # --fp16
