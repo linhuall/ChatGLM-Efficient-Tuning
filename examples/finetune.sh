@@ -3,7 +3,7 @@
 CUDA_VISIBLE_DEVICES=0 python /kaggle/working/model/src/finetune.py \
     --do_train \
     --dataset datasetV3 \
-    --dataset_dir ../data \
+    --dataset_dir /kaggle/working/model/data \
     --finetuning_type lora \
     --output_dir /kaggle/working/checkpoint \
     --overwrite_cache \
