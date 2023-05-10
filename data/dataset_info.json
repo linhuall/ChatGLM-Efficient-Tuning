@@ -112,7 +112,7 @@
         "columns": {
             "prompt": "prompt",
             "query": "query",
-            "response": "output",
+            "response": "response",
             "history": "history"
         }
     }
