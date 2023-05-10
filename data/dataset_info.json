@@ -111,7 +111,7 @@
         "file_name": "/kaggle/input/dataset/datasetV3.json",
         "columns": {
             "prompt": "prompt",
-            "query": "",
+            "query": "query",
             "response": "output",
             "history": "history"
         }
