@@ -4,8 +4,10 @@ from typing import Optional
 from dataclasses import dataclass, field
 
 
-CHATGLM_REPO_NAME = "THUDM/chatglm-6b"
-CHATGLM_LASTEST_HASH = "a8ede826cf1b62bd3c78bdfb3625c7c5d2048fbd"
+# CHATGLM_REPO_NAME = "THUDM/chatglm-6b"
+# CHATGLM_LASTEST_HASH = "a8ede826cf1b62bd3c78bdfb3625c7c5d2048fbd"
+CHATGLM_REPO_NAME = "THUDM/chatglm-6b-int4"
+CHATGLM_LASTEST_HASH = "e214c5b71d9c13e90d92968fd8e39ce2be95419b"
 
 
 @dataclass
