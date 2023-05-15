@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CUDA_VISIBLE_DEVICES=0,1 python /kaggle/working/model/src/finetune.py \
+CUDA_VISIBLE_DEVICES=0 python /kaggle/working/model/src/finetune.py \
     --do_train \
     --model_name_or_path THUDM/chatglm-6b-int4 \
     --dataset datasetV3 \
