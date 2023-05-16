@@ -16,4 +16,5 @@ CUDA_VISIBLE_DEVICES=0 python /kaggle/working/model/src/finetune.py \
     --learning_rate 5e-5 \
     --num_train_epochs 6.0 \
     --quantization_bit 4 \
+    --checkpoint_dir /kaggle/working/model/checkpoint/checkpoint-5000 \
     # --fp16 \
