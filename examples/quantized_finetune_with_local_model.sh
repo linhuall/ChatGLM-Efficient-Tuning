@@ -6,7 +6,7 @@ CUDA_VISIBLE_DEVICES=0 python /kaggle/working/model/src/finetune.py \
     --dataset datasetV3 \
     --dataset_dir /kaggle/working/model/data \
     --finetuning_type p_tuning \
-    --output_dir /kaggle/working/model/checkpoint \
+    --output_dir /kaggle/working/model/checkpoint2 \
     --overwrite_cache \
     --per_device_train_batch_size 4 \
     --gradient_accumulation_steps 4 \
@@ -14,7 +14,7 @@ CUDA_VISIBLE_DEVICES=0 python /kaggle/working/model/src/finetune.py \
     --logging_steps 10 \
     --save_steps 1000 \
     --learning_rate 5e-5 \
-    --num_train_epochs 6.0 \
+    --num_train_epochs 4.0 \
     --quantization_bit 4 \
     --checkpoint_dir /kaggle/working/model/checkpoint/checkpoint-5000 \
     # --fp16 \
