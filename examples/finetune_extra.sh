@@ -3,7 +3,7 @@
 CUDA_VISIBLE_DEVICES=0 python /kaggle/working/model/src/finetune.py \
     --do_train \
     --model_name_or_path THUDM/chatglm-6b-int4 \
-    --dataset datasetExtraExtra \
+    --dataset datasetV3 \
     --dataset_dir /kaggle/working/model/data \
     --finetuning_type p_tuning \
     --output_dir /kaggle/working/model/checkpoint3 \
@@ -17,5 +17,5 @@ CUDA_VISIBLE_DEVICES=0 python /kaggle/working/model/src/finetune.py \
     --num_train_epochs 2.0 \
     --quantization_bit 4 \
     --checkpoint_dir /kaggle/working/model/checkpoint2/checkpoint-4000 \
-    # --max_source_length 2048
+    --max_source_length 2048
     # --fp16 \
