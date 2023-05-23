@@ -8,7 +8,7 @@ CUDA_VISIBLE_DEVICES=0 python /kaggle/working/model/src/finetune.py \
     --finetuning_type p_tuning \
     --output_dir /kaggle/working/model/checkpoint3 \
     --overwrite_cache \
-    --per_device_train_batch_size 4 \
+    --per_device_train_batch_size 2 \
     --gradient_accumulation_steps 4 \
     --lr_scheduler_type cosine \
     --logging_steps 10 \
@@ -18,5 +18,5 @@ CUDA_VISIBLE_DEVICES=0 python /kaggle/working/model/src/finetune.py \
     --quantization_bit 4 \
     --checkpoint_dir /kaggle/working/model/checkpoint2/checkpoint-4000 \
     --max_source_length 2048 \
-    --max_target_length 2048
+    --max_target_length 1024
     # --fp16 \
