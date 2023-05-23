@@ -115,5 +115,23 @@
             "response": "response",
             "history": "history"
         }
-    }
+    },
+	"datasetExtra": {
+		"file_name": "/kaggle/input/datasetextra/datasetExtra.json",
+        "columns": {
+            "prompt": "prompt",
+            "query": "query",
+            "response": "response",
+            "history": "history"
+        }
+	},
+	"datasetExtraExtra": {
+		"file_name": "/kaggle/input/datasetextraextra/datasetExtraExtra.json",
+        "columns": {
+            "prompt": "prompt",
+            "query": "query",
+            "response": "response",
+            "history": "history"
+        }
+	}
 }
