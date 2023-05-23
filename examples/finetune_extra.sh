@@ -3,7 +3,7 @@
 CUDA_VISIBLE_DEVICES=0 python /kaggle/working/model/src/finetune.py \
     --do_train \
     --model_name_or_path THUDM/chatglm-6b-int4 \
-    --dataset datasetV3 \
+    --dataset datasetExtra \
     --dataset_dir /kaggle/working/model/data \
     --finetuning_type p_tuning \
     --output_dir /kaggle/working/model/checkpoint3 \
