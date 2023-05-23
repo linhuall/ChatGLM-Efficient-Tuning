@@ -17,5 +17,5 @@ CUDA_VISIBLE_DEVICES=0 python /kaggle/working/model/src/finetune.py \
     --num_train_epochs 2.0 \
     --quantization_bit 4 \
     --checkpoint_dir /kaggle/working/model/checkpoint2/checkpoint-4000 \
-    --max_source_length 2048
+    # --max_source_length 2048
     # --fp16 \
